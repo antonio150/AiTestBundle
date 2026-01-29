@@ -11,13 +11,5 @@
     "psr-4": {
       "AiTestBundle\\": "src/"
     }
-  },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/antonio150/AiTestBundle.git"
-    }
-  ],
-  "minimum-stability": "dev",
-    "prefer-stable": true
+  }
 }
