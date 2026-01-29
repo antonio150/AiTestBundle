@@ -1,0 +1,23 @@
+{
+  "name": "antonio/aitestbundle",
+  "description": "Bundle Symfony pour générer et exécuter des tests automatiquement sur les controllers",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "symfony/framework-bundle": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Antonio\\AiTestBundle\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/antonio150/AiTestBundle.git"
+    }
+  ],
+  "minimum-stability": "dev",
+    "prefer-stable": true
+}
