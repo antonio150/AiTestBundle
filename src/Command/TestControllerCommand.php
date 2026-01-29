@@ -1,9 +1,9 @@
 <?php 
 namespace AiTestBundle\Command;
 
-use Antonio\AiTestBundle\Service\ControllerAnalyzer;
-use Antonio\AiTestBundle\Service\TestGenerator;
-use Antonio\AiTestBundle\Service\TestRunner;
+use AiTestBundle\Service\ControllerAnalyzer;
+use AiTestBundle\Service\TestGenerator;
+use AiTestBundle\Service\TestRunner;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Input\InputArgument;
