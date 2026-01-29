@@ -3,6 +3,12 @@
   "description": "Bundle Symfony pour générer et exécuter des tests automatiquement sur les controllers",
   "type": "symfony-bundle",
   "license": "MIT",
+  "authors": [
+    {
+      "name": "Antonio Rollande Andrianavalona",
+      "email": "antonio@antonionavira.mg"
+    }
+  ],
   "require": {
     "php": ">=8.2",
     "symfony/framework-bundle": "^7.0"
