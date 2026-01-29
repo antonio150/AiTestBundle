@@ -1,4 +1,10 @@
 services:
-  AiTestBundle\:
-    resource: '../../*'
-    exclude: '../../{DependencyInjection,Entity,Tests}'
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  AiTestBundle\Command\:
+    resource: '../../Command/'
+
+  AiTestBundle\Service\:
+    resource: '../../Service/'

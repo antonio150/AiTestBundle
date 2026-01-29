@@ -13,9 +13,8 @@ class AiTestBundle extends Bundle
         // Ici tu peux ajouter des compiler passes si besoin
     }
 
-    public function getContainerExtensionClass(): string
+    public function getPath(): string
     {
-        // Nom exact de ta classe d’extension avec namespace
-        return 'AiTestBundle\DependencyInjection\AiTestExtension';
+        return \dirname(__DIR__);
     }
 }
