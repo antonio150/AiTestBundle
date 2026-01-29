@@ -16,6 +16,6 @@ class AiTestBundle extends Bundle
     public function getContainerExtensionClass(): string
     {
         // Nom exact de ta classe d’extension avec namespace
-        return 'Antonio\AiTestBundle\DependencyInjection\AiTestExtension';
+        return 'AiTestBundle\DependencyInjection\AiTestExtension';
     }
 }
